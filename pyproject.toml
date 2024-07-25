@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "xlsxwritercacher"
+version = "0.1.0"
+description = ""
+authors = ["asterodeia <d_wang_890227@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+xlsxwriter = "^3.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
